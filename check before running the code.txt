@@ -1,0 +1,11 @@
+0. Check the PDcal index and the responsivity for the excitation wavelength.
+
+1. Check all the file names while reading the csv.
+
+2. Change no of steps (ie. from the piezo stage) in the code. ---- the stage movement step size is 500nm for the measurement, so for 10x10um area
+it would have 10x2+1(extra one because it starts at the point where it starts) = 21 squared points.
+
+3. # References for PL reflection - change the index twice
+Change the range for the wavelength
+
+4.  ISPLEff
